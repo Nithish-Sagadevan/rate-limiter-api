@@ -1,0 +1,17 @@
+{"properties": [
+  {
+    "name": "ratelimiter.limit",
+    "type": "java.lang.String",
+    "description": "A description for 'ratelimiter.limit'"
+  },
+  {
+    "name": "ratelimiter.window-minutes",
+    "type": "java.lang.String",
+    "description": "A description for 'ratelimiter.window-minutes'"
+  },
+  {
+    "name": "cleanup.interval",
+    "type": "java.lang.String",
+    "description": "A description for 'cleanup.interval'"
+  }
+]}
