@@ -62,9 +62,10 @@ ratelimiter.window-minutes=1
 cleanup.interval=60000
 
 # Database
-spring.datasource.url=jdbc:postgresql://localhost:5432/rate_limiter_db
-spring.datasource.username=postgres
-spring.datasource.password=123
+⚠️ Do not commit real credentials. Update based on your local setup.
+spring.datasource.url=jdbc:postgresql://localhost:5432/your_database
+spring.datasource.username=your_username
+spring.datasource.password=your_password
 spring.datasource.driver-class-name=org.postgresql.Driver
 
 # Hibernate
